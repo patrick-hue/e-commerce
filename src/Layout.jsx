@@ -1,3 +1,5 @@
+// Layout.jsx
+
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from './components/header';
@@ -11,7 +13,7 @@ export default function Layout() {
           <Header />
         </div>
         <div>
-          <h1>Hello, Welcome!</h1>
+          <h1>Hello, Welcme!</h1>
           {/* You can add any message or content here */}
         </div>
         <Outlet /> {/* Rendering child routes */}

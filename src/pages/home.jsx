@@ -1,5 +1,7 @@
+// Home.jsx
+
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom';
 import { Datastore } from "../assets/data";
 import { CartContext } from "../CartContext/context";
 import { useContext } from "react";
