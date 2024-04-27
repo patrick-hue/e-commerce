@@ -9,7 +9,7 @@ export default function Layout() {
         <div className='header'>
           <Header />
         </div>
-      <Outlet />
+        <Outlet />
       </div>
     </>
   )
