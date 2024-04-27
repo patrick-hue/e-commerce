@@ -23,7 +23,7 @@ export default function Home() {
                     </div>
                     <div className="hero-image">
                         <h1>Discount of <s><span >25%</span></s></h1>
-                        <img src="/images/hero-image1.png" alt="" />
+                        <img src="/images/force.png" alt="" />
                     </div>
                 </div>
             </div>
