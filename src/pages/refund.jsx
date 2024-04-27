@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function refund() {
+export default function Refund() {
   return (
     <div className="container">
     <h1>Refund Policy</h1>
