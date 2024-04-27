@@ -84,7 +84,7 @@ a:hover {
   width: 100%;
   padding: 10px;
   border: 1px solid rgb(37, 37, 197);
-   /* background: linear-gradient(rgb(4, 4, 66),rgba(4, 4, 66, 0.826), rgb(9, 9, 92), rgba(4, 4, 66, 0.58)),url(/public/images/force.jpg); */
+   background: linear-gradient(rgb(4, 4, 66),rgba(4, 4, 66, 0.826), rgb(9, 9, 92), rgba(4, 4, 66, 0.58)),url(/images/force.jpg);
   background: rgb(6, 6, 34);
   
 }

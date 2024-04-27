@@ -124,7 +124,7 @@ body {
   padding: 10px;
   text-align: center;
   justify-content: space-between;
-  background: linear-gradient(rgb(4, 4, 66),rgba(4, 4, 66, 0.281), rgb(9, 9, 92), rgba(4, 4, 66, 0.185)),url(/public/images/force.jpg);
+  background: linear-gradient(rgb(4, 4, 66),rgba(4, 4, 66, 0.281), rgb(9, 9, 92), rgba(4, 4, 66, 0.185)),url(/images/force.jpg);
   background: linear-gradient(rgba(0, 0, 1, 0.532), rgba(245, 245, 247, 0.509), rgb(4, 4, 66)),url(images/force.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -174,7 +174,7 @@ body {
   margin: auto;
   padding: 20px;
   place-content: center;
-  background: linear-gradient(rgb(4, 4, 66),rgba(4, 4, 66, 0.281), rgb(9, 9, 92), rgba(4, 4, 66, 0.185)),url(/public/images/force.jpg);
+  background: linear-gradient(rgb(4, 4, 66),rgba(4, 4, 66, 0.281), rgb(9, 9, 92), rgba(4, 4, 66, 0.185)),url(/images/force.jpg);
   /* display: flex; */
   /* text-align: center; */
   /* flex-wrap: wrap; */

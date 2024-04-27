@@ -7,10 +7,10 @@ export default function Footer() {
             <div className="social-link">
             <h1><span>K</span>M <span>T Sh</span>O<span>P</span></h1>
           <p>Follow us everywhere</p>
-              <i><img src="/public/images/whatsapp_512px.png" alt="" width="30px" /></i>
-              <i><img src="/public/images/TwitterX_96px.png" alt="" width="30px" /></i>
-              <i><img src="/public/images/instagram_96px.png" alt="" width="30px" /></i>
-              <i><img src="/public/images/facebook_circled_96px.png" alt="" width="30px" /></i>
+              <i><img src="/images/whatsapp_512px.png" alt="" width="30px" /></i>
+              <i><img src="/images/TwitterX_96px.png" alt="" width="30px" /></i>
+              <i><img src="/images/instagram_96px.png" alt="" width="30px" /></i>
+              <i><img src="/images/facebook_circled_96px.png" alt="" width="30px" /></i>
             </div>
             <div className="footer-links">
             <h1>Site Links</h1>
@@ -47,13 +47,13 @@ export default function Footer() {
       <div className="footer-bottom">
         <h2>Secure Checkout</h2>
           <p>We use encrypted SSL security to ensure that your credit card information is 100% protected.</p>
-          <img src="/public/images/ff-checkout-visa.png" alt="Visa" />
-          <img src="/public/images/ff-checkout-mastercard.png" alt="Master Card" />
-          <img src="/public/images/ff-checkout-americanexp.png" alt="American Express" />
-          <img src="/public/images/ff-checkout-paypal.png" alt="Paypal" />
-          <img src="/public/images/ff-checkout-discover.png" alt="Discover" />
-          <img src="/public/images/ff-checkout-shopify.png" alt="Shopify" />
-          <img src="/public/images/ff-checkout-7.png" alt="Icon 7" />
+          <img src="/images/ff-checkout-visa.png" alt="Visa" />
+          <img src="/images/ff-checkout-mastercard.png" alt="Master Card" />
+          <img src="/images/ff-checkout-americanexp.png" alt="American Express" />
+          <img src="/images/ff-checkout-paypal.png" alt="Paypal" />
+          <img src="/images/ff-checkout-discover.png" alt="Discover" />
+          <img src="/images/ff-checkout-shopify.png" alt="Shopify" />
+          <img src="/images/ff-checkout-7.png" alt="Icon 7" />
           <p className="text-center">&copy; {new Date().getFullYear()} KMT Store. All rights reserved.</p>
         </div>
     </footer>

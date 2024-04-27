@@ -18,6 +18,10 @@ function Routing() {
         <Routes>
             <Route path="/" element={<Layout />}>
                 <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+            </Route>
+            {/* <Route path="/" element={<Layout />}>
+                <Route path="/" element={<Home />} />
                 <Route path="/product/:product_id" element={<ProductDetails />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/cart" element={<CartPage />} />
@@ -29,7 +33,7 @@ function Routing() {
             <Route path="/admin/*" element={<LayoutAdmin />}>
                 <Route path="addproduct" element={<Addproduct />} />
                 <Route path="*" element={<Notfound />} />
-            </Route>
+            </Route> */}
             <Route path="*" element={<Notfound />} />
         </Routes>
     );
