@@ -16,8 +16,10 @@ import Notfound from "../pages/notfound";
 function Routing() {
     return (
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/" element={<Layout />}>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+            </Route>
             {/* <Route path="/" element={<Layout />}>
                 <Route path="/" element={<Home />} />
                 <Route path="/product/:product_id" element={<ProductDetails />} />
