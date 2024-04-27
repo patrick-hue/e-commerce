@@ -12,7 +12,7 @@ export default function About() {
                 <div className="goal-div">
                     <div className="imgs">
                         <h2>Our Goals</h2> 
-                        <img src="public/images/download.jpeg" alt="School Goals" />
+                        <img src="/images/download.jpeg" alt="School Goals" />
                     </div>
                     <div className="prag">
                     <p>
@@ -24,7 +24,7 @@ export default function About() {
                 <div className="goal-div">
                     <div className="imgs">
                         <h2>Our Visions & Mission </h2>
-                        <img src="public/images/6249f9760013f780a12a614d_vision mission.jpg" alt="School Mission" />
+                        <img src="/images/6249f9760013f780a12a614d_vision mission.jpg" alt="School Mission" />
                     </div>
                     <div className="prag">
                     <p>
