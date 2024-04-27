@@ -1,0 +1,106 @@
+.about{
+  background: linear-gradient(rgb(4, 4, 66),rgba(4, 4, 66, 0.281), rgb(9, 9, 92), rgba(4, 4, 66, 0.185)),url(/images/force.jpg);
+  color: white;
+}
+  header {
+    background-color: #ff0000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+   
+  }
+  header .header {
+    font-size: 40px;
+    font-weight: 600;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+  }
+  
+  .goal-div{
+      display: flex;
+      width: 100%;
+  }
+  .goal-div .imgs{
+      width: 50%;
+      padding: 30px;
+      text-align: center;
+  }
+  .goal-div .imgs h2{
+      color: white;
+      text-align: center;
+      padding: 10px;
+  }
+  .goal-div .imgs img{
+      width: 60%;
+      height: auto;
+      margin-top: 10px;
+      border-radius: 10px;
+  }
+  .goal-div .prag{
+      padding: 40px;
+      width: 50%;
+      overflow: scroll;
+      text-align: left;
+  }
+  .goal-div .prag p{
+      padding: 20px;
+      margin-top: 20px;
+
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+ #contact-form input,
+  textarea {
+      width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    background: transparent;
+    box-shadow: inset 0px 0px 30px rgb(4, 4, 34);
+    color: white;
+  }
+  
+  button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  button:hover {
+    background-color: #ff0000;
+  }
+  @media screen and (max-width: 768px) {
+    
+      .goal-div{
+        display: flex;
+        flex-direction: column;
+      }
+      .goal-div .imgs{
+        width: 100%;
+        padding: 0;
+      }
+      .goal-div .prag{
+        width: 100%;
+        padding: 0;
+      }
+      header{
+          width: 100%;
+      }
+  
+  }
