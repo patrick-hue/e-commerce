@@ -8,7 +8,7 @@ export default function Routing() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
+        <Route path='/*' element={<Home />} />
         {/* Define other nested routes within Layout if needed */}
       </Route>
       <Route path="*" element={<NotFound />} />
