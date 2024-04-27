@@ -10,7 +10,11 @@ export default function Layout() {
         <div className='header'>
           <Header />
         </div>
-        <Outlet />
+        <div>
+          <h1>Hello, Welcome!</h1>
+          {/* You can add any message or content here */}
+        </div>
+        <Outlet /> {/* Rendering child routes */}
         <div className='footer'>
           <Footer />
         </div>
